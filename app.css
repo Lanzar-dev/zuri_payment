@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-box: box-sizing;
+}
+body{
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 216, 216, .1);
+    margin: 10px auto;
+    font-family: sans-serif;
+}
+.wrapper{
+    border: none;
+    padding: 10px;
+    background-color: rgb(250, 244, 244);
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.wrapper h2{
+    color: purple;
+    margin: 10px 0 15px 0;
+    font-size: 2rem;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    background-color: rgb(219, 206, 206);
+}
+form{
+    /* color: rgb(48, 48, 65); */
+    margin: 0 auto;
+}
+form h4{
+    margin: 20px 0 10px 0;
+    border: none;
+    padding: 5px;
+    background-color: rgb(215, 213, 230);
+}
+.name{
+    padding: 5px;
+    width: 60%;
+    margin: 5px auto;
+    border-radius: 15px;
+    border: 1px solid rgb(219, 216, 216);
+}
+.dob{
+    display: inline-block;
+    width: 20px;
+    padding: 2px;
+    border: 1px solid rgb(209, 200, 200);
+    margin-right: 10px;
+}
+.radio{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(59, 59, 163);
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 80px;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 3rem;
+    border: none;
+    box-shadow: 5px 5px 5px 1px #888888;
+}
+button:hover{
+    background-color: rgb(87, 87, 139);
+    cursor: pointer;
+}
+.input-group:nth-of-type(6) input[type=tel]{
+    padding: 5px;
+    width: 60%;
+    margin: 5px auto;
+    border-radius: 15px;
+    border: 1px solid rgb(219, 216, 216);
+}
+.input-box select{
+    border: 1px solid rgb(207, 202, 202);
+    border-radius: 10px;
+    margin-top: 10px;
+}
